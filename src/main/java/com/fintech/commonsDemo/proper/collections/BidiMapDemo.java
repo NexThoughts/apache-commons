@@ -1,4 +1,4 @@
-package com.fintech.commonsDemo.collections;
+package com.fintech.commonsDemo.proper.collections;
 
 import org.apache.commons.collections.BidiMap;
 import org.apache.commons.collections.bidimap.TreeBidiMap;

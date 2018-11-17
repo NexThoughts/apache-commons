@@ -1,4 +1,4 @@
-package com.fintech.commonsDemo.collections;
+package com.fintech.commonsDemo.proper.collections;
 
 import org.apache.commons.collections4.Bag;
 import org.apache.commons.collections4.bag.HashBag;

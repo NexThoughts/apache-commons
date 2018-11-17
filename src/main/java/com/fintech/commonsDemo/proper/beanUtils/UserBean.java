@@ -1,4 +1,4 @@
-package com.fintech.commonsDemo.beanUtils;
+package com.fintech.commonsDemo.proper.beanUtils;
 
 public class UserBean {
 

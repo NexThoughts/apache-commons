@@ -1,8 +1,8 @@
 package com.fintech.commonsDemo;
 
-import com.fintech.commonsDemo.beanUtils.UserBean;
-import com.fintech.commonsDemo.collections.BagDemo;
-import com.fintech.commonsDemo.collections.BidiMapDemo;
+import com.fintech.commonsDemo.proper.beanUtils.UserBean;
+import com.fintech.commonsDemo.proper.collections.BagDemo;
+import com.fintech.commonsDemo.proper.collections.BidiMapDemo;
 import org.apache.commons.beanutils.BeanUtils;
 import org.apache.commons.beanutils.PropertyUtils;
 import org.apache.commons.lang3.builder.ToStringBuilder;
