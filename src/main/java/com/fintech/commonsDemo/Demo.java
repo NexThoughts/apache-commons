@@ -2,6 +2,7 @@ package com.fintech.commonsDemo;
 
 import com.fintech.commonsDemo.beanUtils.UserBean;
 import com.fintech.commonsDemo.collections.BagDemo;
+import com.fintech.commonsDemo.collections.BidiMapDemo;
 import org.apache.commons.beanutils.BeanUtils;
 import org.apache.commons.beanutils.PropertyUtils;
 import org.apache.commons.lang3.builder.ToStringBuilder;
@@ -41,9 +42,12 @@ public class Demo {
     }
 
     private static void executeCollections(){
-        System.out.println("&&&&&&&&&&&&&&&& BAG INTERFACE EXAMPLES &&&&&&&&&&&&");
+        System.out.println("\n\n\n\n&&&&&&&&&&&&&&&& BAG INTERFACE EXAMPLES &&&&&&&&&&&&");
         BagDemo.hashBagDemo();
         BagDemo.treeSetBagDemo();
+
+        System.out.println("\n\n\n&&&&&&&&&&&&&&&& Bi-Directional Map EXAMPLES &&&&&&&&&&&&");
+        BidiMapDemo.execute();
     }
 
     public static void main(String args[]) {
