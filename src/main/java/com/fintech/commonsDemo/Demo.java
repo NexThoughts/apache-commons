@@ -1,6 +1,7 @@
 package com.fintech.commonsDemo;
 
 import com.fintech.commonsDemo.beanUtils.UserBean;
+import com.fintech.commonsDemo.collections.BagDemo;
 import org.apache.commons.beanutils.BeanUtils;
 import org.apache.commons.beanutils.PropertyUtils;
 import org.apache.commons.lang3.builder.ToStringBuilder;
@@ -39,7 +40,14 @@ public class Demo {
 
     }
 
+    private static void executeCollections(){
+        System.out.println("&&&&&&&&&&&&&&&& BAG INTERFACE EXAMPLES &&&&&&&&&&&&");
+        BagDemo.hashBagDemo();
+        BagDemo.treeSetBagDemo();
+    }
+
     public static void main(String args[]) {
         executeBeanUtilsExample();
+        executeCollections();
     }
 }
