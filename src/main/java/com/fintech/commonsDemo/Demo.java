@@ -1,6 +1,7 @@
 package com.fintech.commonsDemo;
 
 import com.fintech.commonsDemo.proper.beanUtils.UserBean;
+import com.fintech.commonsDemo.proper.codec.EncodeDecode;
 import com.fintech.commonsDemo.proper.collections.BagDemo;
 import com.fintech.commonsDemo.proper.collections.BidiMapDemo;
 import org.apache.commons.beanutils.BeanUtils;
@@ -51,7 +52,12 @@ public class Demo {
     }
 
     public static void main(String args[]) {
+
         executeBeanUtilsExample();
+
         executeCollections();
+
+        System.out.println("\n\n\n&&&&&&&&&&&&&&&& Encode And Decodeby Codec EAMPLE &&&&&&&&&&&&");
+        EncodeDecode.execute();
     }
 }
