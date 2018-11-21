@@ -4,6 +4,7 @@ import com.fintech.commons.proper.beanUtils.UserBean
 import com.fintech.commons.proper.codec.EncodeDecode
 import com.fintech.commons.proper.collections.BagDemo
 import com.fintech.commons.proper.collections.BidiMapDemo
+import com.fintech.commons.proper.lang.StringUtilsDemo
 import org.apache.commons.beanutils.BeanUtils
 import org.apache.commons.beanutils.PropertyUtils
 import org.apache.commons.lang3.builder.ToStringBuilder
@@ -27,7 +28,7 @@ class Demo {
             PropertyUtils.setSimpleProperty(userBeanTo, "aadhaar", "1111111111")
 
             println("\n\n------- Fetch Value from both objects with help of PropertyUtils --------")
-            println("------- UserBeanFrom Object values : ==" + ToStringBuilder.reflectionToString(userBeanFrom) + " --------")
+            println("------- UserBeanFrom Object values : ==${ToStringBuilder.reflectionToString(userBeanFrom)} --------")
             println("------- UserBeanFrom Object values : ==" + ToStringBuilder.reflectionToString(userBeanTo) + " --------")
 
             println("\n\n\n\n*********** Copy One Instance Values To Another Instance **********")
@@ -59,5 +60,8 @@ class Demo {
 
         println("\n\n\n&&&&&&&&&&&&&&&& Encode And Decodeby Codec EAMPLE &&&&&&&&&&&&")
         EncodeDecode.execute()
+
+        println("\n\n\n&&&&&&&&&&&&&&&& String Utils Examples &&&&&&&&&&&&")
+        StringUtilsDemo.execute()
     }
 }
