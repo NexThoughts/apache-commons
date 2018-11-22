@@ -4,6 +4,7 @@ import com.fintech.commons.proper.beanUtils.UserBean
 import com.fintech.commons.proper.codec.EncodeDecode
 import com.fintech.commons.proper.collections.BagDemo
 import com.fintech.commons.proper.collections.BidiMapDemo
+import com.fintech.commons.proper.collections.IterartorMapExample
 import com.fintech.commons.proper.lang.StringUtilsDemo
 import org.apache.commons.beanutils.BeanUtils
 import org.apache.commons.beanutils.PropertyUtils
@@ -50,6 +51,9 @@ class Demo {
 
         println("\n\n\n&&&&&&&&&&&&&&&& Bi-Directional Map EXAMPLES &&&&&&&&&&&&")
         BidiMapDemo.execute()
+
+        println("\n\n\n&&&&&&&&&&&&&&&& Itreable Map EXAMPLES &&&&&&&&&&&&")
+        IterartorMapExample.execute()
     }
 
     public static void main(String[] args) {
@@ -63,5 +67,7 @@ class Demo {
 
         println("\n\n\n&&&&&&&&&&&&&&&& String Utils Examples &&&&&&&&&&&&")
         StringUtilsDemo.execute()
+
+//        SendEmail.send()
     }
 }
