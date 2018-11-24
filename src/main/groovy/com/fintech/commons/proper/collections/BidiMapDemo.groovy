@@ -11,10 +11,11 @@ public class BidiMapDemo {
         bidiMap.put("2", "second")
         bidiMap.put("3", "third")
         bidiMap.put("4", "four")
+        bidiMap.put("5", "four")
 
         println("---------- First Key of Map : ==" + bidiMap.firstKey())
         println("---------- Value Fom Key(3) : ==" + bidiMap.get("3"))
-        println("---------- Key(4) From Value : ==" + bidiMap.get("four"))
+        println("---------- Key(4) From Value : ==" + bidiMap.getKey("four"))
 
         println("\n---------- Map Before Inverse: ==" + bidiMap)
         BidiMap inversedMap = bidiMap.inverseBidiMap()
